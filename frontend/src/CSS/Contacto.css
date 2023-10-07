@@ -1,0 +1,100 @@
+/* Contacto.css */
+
+/* Estilo para los iconos */
+.IconosLink a {
+    display: flex;
+    align-items: center;
+    color: inherit; /* Utiliza el color heredado del texto */
+    text-decoration: none;
+    margin-bottom: 10px; /* Espaciado entre los iconos */
+  }
+  
+  /* Estilo para los iconos de Facebook */
+  .IconosLink a:nth-child(1) svg {
+    color: #1877f2; /* Color de Facebook */
+  }
+  
+  /* Estilo para los iconos de Instagram */
+  .IconosLink a:nth-child(2) svg {
+    color: #bc2a8d; /* Color de Instagram */
+  }
+  
+  /* Estilo para los iconos de Whatsapp */
+  .IconosLink a:nth-child(3) svg {
+    color: #25d366; /* Color de Whatsapp */
+  }
+  
+  /* Estilo para centrar verticalmente el contenido de .IconosLink a */
+  .IconosLink a svg {
+    margin-right: 10px; /* Espaciado entre el icono y el texto (ajustable) */
+  }
+  
+  /* Estilo para centrar verticalmente el contenido de .IconosLink a */
+  .IconosLink a span {
+    flex: 1; /* Hace que el texto ocupe todo el espacio restante horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+/* Estilo para los campos del formulario */
+form div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center; /* Centra el texto del label horizontalmente */
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Incluye el borde en el ancho total */
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .ContenedorTodo {
+  display: flex;
+  justify-content: space-between; /* Distribuye los contenedores a los lados */
+  align-items: flex-start; /* Alinea los elementos superiormente */
+}
+
+.ContenedorIzquierdo {
+  flex: 1; /* El contenedor izquierdo ocupará todo el espacio restante horizontalmente */
+  margin-right: 20px; /* Espaciado entre los contenedores */
+}
+
+.ContenedorDerecho {
+  flex: 1; /* El contenedor derecho ocupará todo el espacio restante horizontalmente */
+}
+form textarea {
+    height: 100px; /* Establece la altura fija deseada en píxeles */
+  }

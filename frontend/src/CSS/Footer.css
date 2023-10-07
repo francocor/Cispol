@@ -1,0 +1,44 @@
+#Footercontenedor {
+    background-color: #0A3143;
+    color: white;
+    padding: 5px 0; /* Ajusta el padding para hacerlo menos alto */
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Coloca elementos a izquierda y derecha */
+    align-items: center;
+  }
+  
+  #Footercontenedor h3 {
+    font-size: 0.8rem;
+    margin: 5px 0;
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: flex; /* Para que los iconos estén en línea con el texto */
+    align-items: center; /* Alinea los iconos verticalmente con el texto */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px; /* Ajusta el margen izquierdo para separar del texto */
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem; /* Reduce el tamaño de los iconos aún más */
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+  .social-icons a svg {
+    width: 23px; /* Cambia el tamaño según tus preferencias */
+    height: 23px; /* Cambia el tamaño según tus preferencias */
+  }
+  #Footercontenedor h3:last-child {
+    text-align: right; /* Alinea el último h3 (derechos de autor) a la derecha */
+  }

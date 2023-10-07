@@ -1,0 +1,36 @@
+#Headercontenedor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0A3143;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Headercontenedor img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
