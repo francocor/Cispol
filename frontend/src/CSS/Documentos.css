@@ -1,0 +1,11 @@
+ul.link a {
+  color: white; /* Establece el color del texto a blanco */
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
+ul.link a:hover {
+  color: darkorange;
+}
+
+ul.link {  
+list-style: none;
+}

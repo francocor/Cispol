@@ -1,5 +1,6 @@
-import logo from '../assets/loguito.png';
-import { Link } from 'react-router-dom';
+import logo from '../assets/loguito.png'
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom'
 import '../CSS/Header.css'
 
 const Header = () => {
@@ -24,20 +25,30 @@ const Header = () => {
                     <Link to="/Discursos">Discursos</Link>
                 </li>
                 <li>
-                    <Link to="/Socios">Socios</Link>
+                    <Link to="/Socios">Socios Estrategicos</Link>
+                </li>
+                <li>
+                    <Link to="/Instituciones">Instituciones</Link>
                 </li>
                 <li>
                     <Link to="/Productos">Productos</Link>
                 </li>
                 <li>
-                    <Link to="/Sponsors">Sponsor</Link>
+                    <Link to="/Sponsors">Nuestro staff</Link>
                 </li>
                 <li>
                     <Link to="/Contacto">Contactanos</Link>
                 </li>
+                <li>
+                <Link to="/Donar"><Button className="custom-button" variant="outline-warning">Donar</Button>
+</Link>
+                </li>
+                
+
             </ul>
         </nav>
     </div>
+    
   );
 }
 

@@ -1,0 +1,49 @@
+.card {
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el botón de donación */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el encabezado y el pie de página */
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para el título principal */
+  h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  /* Estilos para el contenedor de la página */
+  .container {
+    margin-top: 20px;
+  }

@@ -1,0 +1,48 @@
+.container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .table {
+    width: 100%; /* Ajusta este valor según tus preferencias */
+    max-width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  thead th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .btn {
+    margin-right: 1px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para el formulario de agregar/editar producto */
+  .form-container {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: blue;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }

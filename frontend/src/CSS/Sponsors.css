@@ -1,0 +1,47 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; /* Ajusta el margen superior para evitar la superposición con el encabezado */
+}
+
+.card {
+  width: calc(33.33% - 20px);
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.card {
+  
+  width: 300px; /* Ancho de las tarjetas */
+   }
+   
+   /* Estilo para las imágenes dentro de las tarjetas */
+   .card img {
+     
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen dentro de la tarjeta */
+   }
+   
+   /* Estilo para el título de la tarjeta */
+   .card-title {
+     font-size: 1rem; /* Tamaño de fuente del título */
+     color: black;
+   }
+   
+   /* Estilo para el texto de la tarjeta */
+   .card-text {
+     font-size: 0.9rem; /* Tamaño de fuente del texto */
+     color: black;
+   }
+   
+   /* Estilo para los botones dentro de las tarjetas */
+   .card a .btn {
+     font-size: 0.8rem;
+     background-color: transparent;
+     border: none;
+   }
+   

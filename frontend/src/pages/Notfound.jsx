@@ -1,6 +1,6 @@
 import '../CSS/Notfound.css';
 import Footer from "../components/Footer";
-import Header from "../components/header";
+import Header from "../components/Header";
 import error from '../assets/eror-404.jpg';
 
 const Notfound = () => {

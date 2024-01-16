@@ -1,0 +1,32 @@
+.enlace-curso {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+}
+
+.enlace-curso:hover {
+  background-color: #0056b3;
+}
+
+.tarjeta img {
+  border-radius: 10px;
+}
+
+
+.tarjeta h2 {
+  color: white;
+}
+
+.tarjeta p {
+  color: white;
+}
